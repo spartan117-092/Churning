@@ -5,7 +5,8 @@ import pandas as pd
 import joblib
 
 # Load pipeline
-pipe = joblib.load("pipeline.pkl")
+# pipe = joblib.load("pipeline.pkl")
+pipe = joblib.load("../pipeline.pkl")
 preprocess = pipe["preprocessor"]
 models = pipe["models"]
 
